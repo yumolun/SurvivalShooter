@@ -6,8 +6,8 @@ public class EnemyManager : MonoBehaviour
     public GameObject enemy;
     public float spawnTime = 3f;
     public Transform[] spawnPoints;
-
-
+    public Transform[] wayPoints;
+    
     void Start ()
     {
         InvokeRepeating ("Spawn", spawnTime, spawnTime);
