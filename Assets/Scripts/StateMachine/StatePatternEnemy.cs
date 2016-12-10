@@ -41,12 +41,13 @@ public class StatePatternEnemy : MonoBehaviour
         ChaseState = new ChaseState(this);
         NavMeshAgent = GetComponent<NavMeshAgent>();
         enemyManger = GameObject.Find("EnemyManager").GetComponent<EnemyManager>();
-
+        /*
         wayPoints = new Transform[enemyManger.wayPoints.Length];
         for (int i = 0; i < enemyManger.wayPoints.Length; i++)
         {
             wayPoints[i] = enemyManger.wayPoints[i];
         }
+        */
     }
 
     private void Start()
