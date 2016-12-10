@@ -15,5 +15,5 @@ MonoBehaviour:
   Cost: 50
   Description: Light weapon, low damage, short range
   FireRate: 0.1
-  Damage: 2
+  Damage: 5
   Range: 20
